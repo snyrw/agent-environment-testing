@@ -1,0 +1,9 @@
+services:
+  default:
+    image: python:3.12-bookworm
+    init: true
+    command: tail -f /dev/null
+    network_mode: none
+    # Uncomment to cap resources available to the sandboxed model:
+    # mem_limit: 1g
+    # cpus: 1.0

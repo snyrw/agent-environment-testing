@@ -1,0 +1,13 @@
+[project]
+name = "kimi-inspect-eval"
+version = "0.1.0"
+description = "Kimi K2.6 + Inspect sandboxed eval scaffold"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=5.0.1",
+    "inspect-ai",
+    "openai",
+]
+
+[tool.uv]
+package = false
